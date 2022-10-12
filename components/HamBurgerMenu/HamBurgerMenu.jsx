@@ -1,31 +1,30 @@
 function HamBurgerMenu() {
   return (
     <>
-      <div className="absolute h-[10vh] w-full">{/* burger-icon */}</div>
-      <nav className="absolute md:hidden  w-full h-screen flex justify-center items-center bg-black">
-        <ul className="w-full h-[75vh] flex flex-col justify-evenly items-center text-white bg-[black]">
-          <li className="text-[1.5rem]">
+      <nav className="absolute w-full h-[15vh] flex justify-center items-center">
+        <ul className="lg:hidden w-[70vw] h-full flex  justify-evenly items-center text-white ">
+          <li className="text-[1rem]">
             <a href="#">Home</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">About Me</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Skill</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Experience</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Education</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Certificates</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Projects</a>
           </li>
-          <li className="text-[1.5rem]">
+          <li className="text-[1rem]">
             <a href="#">Competitions</a>
           </li>
         </ul>

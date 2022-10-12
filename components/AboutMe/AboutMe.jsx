@@ -7,7 +7,7 @@ function AboutMe() {
         id="AboutMe"
         className="relative w-full h-[75vh] flex justify-center items-center"
       >
-        <div className="w-[60%] h-screen flex flex-col justify-center items-center">
+        <div className="w-[60%] h-full flex flex-col justify-center items-center">
           <h1
             className="mb-[2.5rem] text-center text-white text-[2.5rem]"
             style={{ fontFamily: "'Julius Sans One', sans-serif" }}
