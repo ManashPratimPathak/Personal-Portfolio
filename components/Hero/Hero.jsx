@@ -5,14 +5,23 @@ import CoffeePic from "../../public/images/CoffeePic.svg";
 import Logo from "../Shared/Logo";
 import Button1 from "../Shared/Button1";
 import AnimatedTextCharacter from "../AnimatedText/AnimatedTextCharacter";
+import image from "../../public/images/bg-1.jpg"
 
 const svgShadow = {
   filter: "drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4))",
 };
 
+const bgStyles = {
+  backgroundImage: `url('${image}')`,
+  backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover"
+}
+
 function Hero() {
   return (
-    <div className="w-full h-screen flex justify-around bg-[#FF0063] bg-fixed bg-center bg-no-repeat bg-cover">
+    <div className="w-full h-screen flex justify-around bg-[#FF0063] bg-fixed bg-center bg-no-repeat bg-cover" style={bgStyles}> 
       <Logo />
       <div className="pl-[5rem] mb-[3rem] w-[70%] h-full flex flex-col justify-center">
         <h1 className={style.helloText} style={{ fontSize: "2.5rem" }}>

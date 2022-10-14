@@ -1,4 +1,14 @@
 import React from "react";
+import bg2 from "../../public/images/bg-2.jpg";
+
+
+const bgStyles = {
+  backgroundImage: ` linear-gradient(transparent, black ), url(${bg2.src})`,
+  backgroundAttachment: "fixed",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover"
+}
 
 function AboutMe() {
   return (
@@ -6,6 +16,7 @@ function AboutMe() {
       <div
         id="AboutMe"
         className="relative w-full h-[75vh] flex justify-center items-center"
+        style={bgStyles}
       >
         <div className="w-[60%] h-full flex flex-col justify-center items-center">
           <h1
@@ -22,7 +33,7 @@ function AboutMe() {
             National Institute of Technology, Silchar. I have worked as a
             frontend Developer for various teams, fest, and Startup for the past
             year. Besides this, I also have experience working as a technical
-            support member and organizer of events and workshops. Currently, I
+            support member and organizing events and workshops. Currently, I
             have been working as a technical Head of the Entrepreneurship Cell
             at NIT Silchar.
           </p>
