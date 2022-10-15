@@ -3,6 +3,7 @@ import styles from "./item.module.css";
 export default function item({ data, index }) {
   const { title, description, content } = data;
   return (
+    <>
     <div className={styles["container-item"]}>
       <div className={styles["container-content-item"]}>
         <div className={styles["container-content-header"]}>
@@ -28,5 +29,6 @@ export default function item({ data, index }) {
         </ul>
       </div>
     </div>
+    </>
   );
 }

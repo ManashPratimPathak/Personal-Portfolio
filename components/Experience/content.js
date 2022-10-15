@@ -1,63 +1,72 @@
 const steps = [
     {
-      title: "ACHIEVEMENTS ROADMAP",
+      title: "Entrepreneurship cell NIT Silchar",
       description:
-        "First off, thank you for being a part of the community. We are excited to se how much organic growth and engagement the community here is experiencing. Here are some community stats and updates:",
+        "Nov-2021 - present",
       content: [
         {
-          title: "COMMUNITY GOALS:",
+          title: "Technical Team Member:",
           subtitles: [
-            "Discord Members: 20,000+",
-            "Twitter Followers: 20,000+",
-            "10 new Moderators Hired Full Time",
-            "3,000 WL Raffle Signups",
+            "Collaborate and work with other technical team members",
+            "Completed the 2021-version Ecell NIT Silchar website within one month",
+            "Worked with the website team, technical support team and outreach team for Srijan 3.0",
+            "Worked on the 2022-version of Ecell Website as well ",
           ],
         },
         {
-          title: "PROJECTED GROWTH:",
+          title: "Technical Team Head:",
           subtitles: [
-            "2,519.8% Q3 of 2022",
-            "2,000 Weekly Communicators",
-            "17.10% new weekly member retention",
-            "10,500+ Twitter followers (zero ads)",
+            "Worked with faculties and various supporting team for Smart India Hackathon 2022 held at NIT Silchar ",
+            "Currently, heading the team of 9 developers for the improvement of current version of Ecell Website ",
+            "Organizing head of one the events of Ecell's Module in Technical Fest of NIT Silchar",
+            "to be continued"
           ],
         },
       ],
     },
     {
-      title: "CURRENT EVENTS",
+      title: "WorkWithDAAS.com",
       description:
-        "We're excited announce successful strategic partnerships and influencers we've onboarded:",
+        "july-22 - oct-22",
       content: [
         {
-          title: "INFLUENCER NEWS & PARTNERS:",
+          title: "Frontend Developer:",
           subtitles: [
-            "FLWR Partnership Launchpad",
-            "HolyVerse advisory",
-            "Skullbots advisory",
-            "Sol Flowers advisory",
-            "Cyber Pharmacy advisory",
-            "Shadowy Super Coder advisory",
+            "Design and developed the Ui/Ux for their companies's hiring site",
+            "Worked on the frontend part of the Daas hiring site",
           ],
         },
       ],
     },
     {
-      title: "FUTURE UPDATES",
+      title: "NIT Silchar Events",
       description:
-        "As we continue to grow, our goal is to keep you guys updated with all relevant details and up coming roadmap achievements:",
+        "",
       content: [
         {
-          title: "MINT UPDATES:",
+          title: "Posua 2022 Spring Fest NIT Silchar:",
           subtitles: [
-            "Whitelist Raffles begin early June",
-            "Founder speaks at major AMA and Twitter spaces with partners",
-            "Mint date is TBD. All the technology is ready.",
-            "New strategic promotion announcement",
-            "A tier influencer partnership campaigns deployed",
-            "Game theory rules & deflationary mechanics revealed to the public",
+            "Feb-22 - Mar-22",
+            "Build the frontend part for the official website for the Spring Cultural Fest of NIT Silchar is made using Node.js, Express.js, MongoDB, ReactJS",
           ],
         },
+        {
+          title: "Srijan 3.0 Annual Entrepreneurship-summit:",
+          subtitles: [
+            "feb-22 - april-22",
+            "WEB TEAM: Build the official website e for the Annual Entrepreneurship Summit of NIT Silchar is made using Node.js , Express.js, MongoDB, CSS, JS, HTML.",
+            "TECH SUPPORT TEAM: Provided technical support for various online and offline events, speaker sessions & workshop",
+            "COLLABORATION TEAM: Reach out to the other colleges for their participation in various events and workshops.",
+          ],
+        },
+        {
+          title: "Tecnoesis 2022 The Technical Fest of NIT Silchar:",
+          subtitles: [
+            "Aug-22 - present",
+            "Event Head of one the events under Ecell's module called Empressario",
+            "Worked on the comming soon page of Tecnoesis Webite, tech used: Nextjs, tailwindCSS."
+          ],
+        }
       ],
     },
   ];
