@@ -2,13 +2,13 @@ import React from "react";
 import bg2 from "../../public/images/bg-2.jpg";
 
 
-const bgStyles = {
-  backgroundImage: ` linear-gradient(transparent, black ), url(${bg2.src})`,
-  backgroundAttachment: "fixed",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover"
-}
+// const bgStyles = {
+//   backgroundImage: ` linear-gradient(transparent, black ), url(${bg2.src})`,
+//   backgroundAttachment: "fixed",
+//   backgroundPosition: "center",
+//   backgroundRepeat: "no-repeat",
+//   backgroundSize: "cover"
+// }
 
 function AboutMe() {
   return (
@@ -16,7 +16,6 @@ function AboutMe() {
       <div
         id="AboutMe"
         className="relative w-full h-[75vh] flex justify-center items-center"
-        style={bgStyles}
       >
         <div className="w-[60%] h-full flex flex-col justify-center items-center">
           <h1

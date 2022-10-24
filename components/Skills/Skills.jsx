@@ -32,7 +32,7 @@ export class Skills extends Component {
   render() {
     return (
       <>
-        <div className="w-full h-[75vh]  bg-black text-white flex flex-col justify-center items-center " >
+        <div className="w-full h-[75vh] flex flex-col justify-center items-center " >
           <div className="text-center">
             <p
               className="text-[2.5rem] pb-[2.5rem]"
@@ -44,97 +44,97 @@ export class Skills extends Component {
           </div>
           <div className="w-[80%] h-[auto] flex flex-wrap items-start justify-center gap-[2rem] scale-[0.93]">
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={html}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={css}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px]  opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={javascript}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px]  opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={nodejs}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={expressJs}
               width="150px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px]  opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={jquery}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={tailwindcss}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={bootstrap}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={materialui}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={react}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={nextjs}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={mongodb}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={mysql}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={restapi}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={googlecloud}
               width="100px"
               height="100px"
             />
             <Image
-              className="bg-[#8BBCCC] rounded-[20px] p-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
+              className="rounded-[20px] opacity-[0.75] hover:opacity-[0.95] hover:scale-[0.8] duration-[250ms]"
               src={azure}
               width="100px"
               height="100px"
